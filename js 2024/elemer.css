@@ -1,0 +1,86 @@
+/* styles.css */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  text-align: center;
+}
+
+.header {
+  background-color: #000655;
+  color: white;
+  padding: 1rem;
+
+}
+
+.header h1 {
+  margin: 0;
+  background-color: #000655;
+  color: #f4f4f4;
+  padding: 10px 20px;
+  width: 25%;
+  text-align: center;
+  box-shadow: inset;
+  text-align: center;
+  
+}
+
+.main-content {
+  margin-top: 2rem;
+}
+
+.logo img {
+  max-width: 200px;
+  height: auto;
+  margin: 1rem 0;
+  padding: 0px;
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  margin: 1rem 0;
+  color: #333;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin: 2rem 0;
+}
+
+.button {
+  display: flex;
+  width: 80%;
+  max-width: 600px;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  background-color: #000655;
+  color: white;
+  text-decoration: none;
+  padding: 1rem;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.button .icon {
+  font-size: 1.5rem;
+  margin-right: 1rem;
+}
+
+.bold-text{
+   font-weight: bold;
+}
+#elmer-studio {
+  position: relative;
+  top: 0px; /* Menggeser ke bawah */
+  left: 540px; /* Menggeser ke kanan */
+}
